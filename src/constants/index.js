@@ -33,7 +33,8 @@ import {
     imran_ai_saas,
     notion,
     realtime_chat,
-    board_collaboration
+    board_collaboration,
+    edution
 } from "../assets/icons";
 
 export const skills = [
@@ -258,5 +259,13 @@ export const projects = [
         demo : "https://imran-saas.vercel.app",
         description: "Introducing our groundbreaking AI Companion Application, a revolutionary tool designed to enhance your daily life like never before. With our application, you'll have a virtual companion at your fingertips, ready to assist you in various aspects of your routine. Whether you need help organizing your schedule, managing tasks, or simply seeking companionship, our AI Companion Application is there for you.",
         link: 'https://github.com/Imranul-hoque/imran-saas.git',
+    },
+    {
+        iconUrl: education,
+        theme: 'btn-back-red',
+        name: 'LMS',
+        demo : "https://imran-lms.vercel.app",
+        description: "Our Learning Management System (LMS) project aims to revolutionize the way education is delivered and managed. Designed to cater to the diverse needs of modern learners and educators, our LMS offers a comprehensive platform for organizing, delivering, and tracking educational content seamlessly",
+        link: 'https://github.com/Imranul-hoque/learning_management_system.git',
     },
 ];
