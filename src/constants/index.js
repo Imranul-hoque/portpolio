@@ -34,7 +34,7 @@ import {
     notion,
     realtime_chat,
     board_collaboration,
-    edution
+    education
 } from "../assets/icons";
 
 export const skills = [
